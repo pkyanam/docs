@@ -1,0 +1,41 @@
+---
+title: "AgentMeld"
+description: "Asynchronous cloud agents alongside local coding agents"
+---
+
+# AgentMeld
+
+<Info>
+  **Live service** — [agentmeld.com](https://agentmeld.com) | **TypeScript**
+</Info>
+
+AgentMeld is a service that enables asynchronous cloud agents to run alongside local coding agents like Claude Code — letting you offload long-running or compute-intensive agentic tasks to the cloud without blocking your local workflow.
+
+## The problem it solves
+
+Local coding agents are powerful but synchronous by nature — they block while waiting for results. Some tasks (long research loops, multi-step code generation, external API orchestration) don't need to hold up your terminal session. AgentMeld lets you fire off those tasks to the cloud and pick up the results when they're ready.
+
+## How it works
+
+<CardGroup cols={2}>
+  <Card title="Async cloud agents" icon="cloud">
+    Dispatch agentic tasks to the cloud and let them run independently, freeing up your local agent for other work.
+  </Card>
+  <Card title="Local agent integration" icon="terminal">
+    Designed to work alongside tools like Claude Code, preserving local context while leveraging remote compute.
+  </Card>
+  <Card title="Task orchestration" icon="arrows-split-up-and-left">
+    Coordinate multi-step agent workflows that span both cloud and local environments.
+  </Card>
+  <Card title="Result retrieval" icon="inbox">
+    Poll or receive callbacks when cloud agent tasks complete, then resume your local workflow.
+  </Card>
+</CardGroup>
+
+## Status
+
+AgentMeld is actively in development and early-stage. The architecture is being refined as the broader AI agent ecosystem — MCP, tool-calling, async runtimes — continues to mature.
+
+<Note>
+  Interested in early access or want to collaborate? [Get in touch](/contact).
+</Note>

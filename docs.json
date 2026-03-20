@@ -11,6 +11,31 @@
   "navigation": {
     "tabs": [
       {
+        "tab": "Projects",
+        "groups": [
+          {
+            "group": "Featured",
+            "pages": [
+              "projects/index",
+              "projects/agentmeld",
+              "projects/arduroomba",
+              "projects/cli-pk",
+              "projects/claude-ps5-mcp"
+            ]
+          },
+          {
+            "group": "More projects",
+            "pages": [
+              "projects/openhome-abilities",
+              "projects/gba-next",
+              "projects/gh-contributions-menu-bar",
+              "projects/rustyclaw",
+              "projects/gptmon"
+            ]
+          }
+        ]
+      },
+      {
         "tab": "About",
         "groups": [
           {
@@ -30,29 +55,6 @@
             "pages": [
               "experience/education",
               "experience/skills"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "Projects",
-        "groups": [
-          {
-            "group": "Featured",
-            "pages": [
-              "projects/index",
-              "projects/arduroomba",
-              "projects/cli-pk",
-              "projects/claude-ps5-mcp"
-            ]
-          },
-          {
-            "group": "More projects",
-            "pages": [
-              "projects/gba-next",
-              "projects/gh-contributions-menu-bar",
-              "projects/rustyclaw",
-              "projects/gptmon"
             ]
           }
         ]
