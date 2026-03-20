@@ -1,68 +1,69 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Preetham Kyanam",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#2563EB",
+    "light": "#3B82F6",
+    "dark": "#1D4ED8"
   },
   "favicon": "/favicon.svg",
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "About",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "",
             "pages": [
               "index",
-              "quickstart",
-              "development"
-            ]
-          },
-          {
-            "group": "Customization",
-            "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
+              "about"
             ]
           }
         ]
       },
       {
-        "tab": "API reference",
+        "tab": "Experience",
         "groups": [
           {
-            "group": "API documentation",
+            "group": "Background",
             "pages": [
-              "api-reference/introduction"
+              "experience/education",
+              "experience/skills"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Projects",
+        "groups": [
+          {
+            "group": "Featured",
+            "pages": [
+              "projects/index",
+              "projects/arduroomba",
+              "projects/cli-pk",
+              "projects/claude-ps5-mcp"
             ]
           },
           {
-            "group": "Endpoint examples",
+            "group": "More projects",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "projects/gba-next",
+              "projects/gh-contributions-menu-bar",
+              "projects/rustyclaw",
+              "projects/gptmon"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Contact",
+        "groups": [
+          {
+            "group": "",
+            "pages": [
+              "contact"
             ]
           }
         ]
@@ -71,14 +72,14 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "anchor": "GitHub",
+          "href": "https://github.com/pkyanam",
+          "icon": "github"
         },
         {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "anchor": "LinkedIn",
+          "href": "https://linkedin.com/in/preethamkyanam",
+          "icon": "linkedin"
         }
       ]
     }
@@ -90,33 +91,21 @@
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "label": "Email",
+        "href": "mailto:kyanam.preetham@gmail.com"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "GitHub",
+      "href": "https://github.com/pkyanam"
     }
-  },
-  "contextual": {
-    "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "x": "https://x.com/pkyanam",
+      "github": "https://github.com/pkyanam",
+      "linkedin": "https://linkedin.com/in/preethamkyanam"
     }
   }
 }
