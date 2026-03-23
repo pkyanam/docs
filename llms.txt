@@ -1,47 +1,35 @@
 # Preetham Kyanam
 
-> Software engineer based in Ashburn, Virginia. Full stack developer, AI agent builder, and open-source contributor.
+> Software engineer based in Ashburn, Virginia. B.S. Computer Engineering from Virginia Tech (2023). Full stack developer, AI agent builder, and open-source contributor. AWS Certified Cloud Practitioner and AI Practitioner.
 
-## About
+## Docs
 
-Preetham Kyanam is a software engineer with a B.S. in Computer Engineering from Virginia Tech (May 2023), concentrating in Controls, Robotics and Autonomy. He builds full stack web and mobile applications, AI agent infrastructure, and open-source developer tools. He holds AWS Certified Cloud Practitioner and AWS Certified AI Practitioner certifications, with the AWS Machine Learning Engineer Associate in progress.
+- [Preetham Kyanam](https://preetham.org/index.md): Software engineer building full stack applications, AI agents, and developer tools
+- [About](https://preetham.org/about.md): A bit more about me
+- [Work Experience](https://preetham.org/experience/work.md): Professional experience and entrepreneurship
+- [Education](https://preetham.org/experience/education.md): Academic background and certifications
+- [Skills](https://preetham.org/experience/skills.md): Languages, frameworks, and tools I work with
+- [AgentMeld](https://preetham.org/projects/agentmeld.md): Asynchronous cloud agents alongside local coding agents
+- [ArduRoomba](https://preetham.org/projects/arduroomba.md): Arduino library for controlling iRobot Roomba
+- [cli-pk](https://preetham.org/projects/cli-pk.md): AI-powered coding assistant CLI
+- [claude-ps5-mcp](https://preetham.org/projects/claude-ps5-mcp.md): MCP server for PS5 discovery and Wake-on-LAN
+- [OpenHome Abilities](https://preetham.org/projects/openhome-abilities.md): Voice AI abilities for the OpenHome smart speaker platform
+- [gba-next](https://preetham.org/projects/gba-next.md): GBA emulator inside Next.js
+- [gh-contributions-menu-bar](https://preetham.org/projects/gh-contributions-menu-bar.md): macOS menu bar app for GitHub contributions
+- [rustyclaw](https://preetham.org/projects/rustyclaw.md): OpenClaw alternative in Rust
+- [GPTmon](https://preetham.org/projects/gptmon.md): AI-generated Pokemon clone
+- [Projects](https://preetham.org/projects/index.md): Open-source projects and services I've built
+- [Contact](https://preetham.org/contact.md): Get in touch
 
-## Professional Experience
+## OpenAPI Specs
 
-- **Logistics Specialist** at Air Culinaire Worldwide (July 2024 – Present): Builds internal order tracking and mobile applications using Next.js; manages client relationships across aviation catering operations.
-- **Software Engineering Consultant** at BOB (July 2024 – Present, Contract): Backend API development for a ride-sharing aggregation platform; third-party API integrations.
-- **Full Stack Developer** at System Soft Technologies (September 2022 – March 2024): Web application development with Node.js and React; backend APIs and database operations.
-- **Campus Leader** at Apple (May 2018 – February 2019): Brand ambassador at Virginia Tech.
+- [openapi](https://preetham.org/api-reference/openapi.json)
 
-## Entrepreneurship
+## Optional
 
-- **Kairobo Platforms LLC** (May 2024 – October 2024): Founded startup to develop low-cost autonomous ground vehicles using consumer mobile devices. Dissolved pre-product after feasibility analysis.
+- [GitHub](https://github.com/pkyanam)
+- [LinkedIn](https://linkedin.com/in/preethamkyanam)
+- [X/Twitter](https://x.com/pkyanam)
+- [Email](mailto:kyanam.preetham@gmail.com)
 
-## Projects
-
-- [AgentMeld](https://agentmeld.com): Asynchronous cloud agent platform enabling local AI coding agents to delegate long-running tasks to the cloud. TypeScript.
-- [OpenHome Voice AI Abilities](https://openhome.ai): Voice AI abilities for the OpenHome smart speaker platform. Python. Selected for developer grant program.
-- [cli-pk](https://github.com/pkyanam/cli-pk): Terminal-based AI coding assistant with multi-provider LLM support. JavaScript, Node.js.
-- [gba-next](https://github.com/pkyanam/gba-next): Game Boy Advance emulator with cycle-accurate ARM7TDMI CPU emulation. TypeScript, Next.js.
-- [ArduRoomba](https://github.com/pkyanam/ArduRoomba): Open-source Arduino library for iRobot Roomba Create 2. C++. 35+ GitHub stars.
-- [claude-ps5-mcp](https://github.com/pkyanam/claude-ps5-mcp): MCP server for PS5 discovery and Wake-on-LAN. TypeScript.
-- [gh-contributions-menu-bar](https://github.com/pkyanam/gh-contributions-menu-bar): macOS menu bar app for GitHub contributions. Swift.
-- [rustyclaw](https://github.com/pkyanam/rustyclaw): OpenClaw alternative in Rust.
-- [GPTmon](https://github.com/pkyanam/gptmon): Pokemon clone built with AI coding tools. TypeScript.
-
-## Technical Skills
-
-- **Languages:** JavaScript, TypeScript, Python, Swift, C++, Rust, HTML, CSS
-- **Frameworks:** React, React Native, Node.js, Express.js, Next.js
-- **AI & ML:** Anthropic Claude API, OpenAI API, LLMs, AI agents, MCP, voice AI, NLP
-- **Cloud & DevOps:** AWS (Lambda, SQS, EC2, S3), Docker, Terraform, GitHub Actions, Jenkins, CI/CD
-- **Databases:** PostgreSQL, MongoDB, Redis
-- **Other:** REST APIs, embedded systems, Arduino, robotics, autonomous systems, Agile/Scrum
-
-## Contact
-
-- Email: kyanam.preetham@gmail.com
-- GitHub: https://github.com/pkyanam
-- LinkedIn: https://linkedin.com/in/preethamkyanam
-- X/Twitter: https://x.com/pkyanam
-- Website: https://preetham.org
+Built with [Mintlify](https://mintlify.com).
