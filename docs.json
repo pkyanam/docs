@@ -104,10 +104,6 @@
       "href": "https://github.com/pkyanam"
     }
   },
-  "head": [
-    ["link", { "rel": "alternate", "type": "text/plain", "href": "/llms.txt", "title": "LLM-friendly documentation index" }],
-    ["style", {}, ".llms-directive { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }"]
-  ],
   "footer": {
     "socials": {
       "x": "https://x.com/pkyanam",
