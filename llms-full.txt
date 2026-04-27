@@ -1,0 +1,405 @@
+# Preetham Kyanam — Full Documentation
+
+> Software engineer based in Ashburn, Virginia. B.S. Computer Engineering from Virginia Tech (2023). Full stack developer, AI agent builder, and open-source contributor. AWS Certified Cloud Practitioner and AI Practitioner.
+
+> For the documentation index, see [llms.txt](/llms.txt).
+
+---
+Source: https://preetham.org/
+---
+
+# Hey, I'm Preetham
+
+Software engineer based in Ashburn, Virginia. I build full stack web and mobile applications, AI agent infrastructure, and open-source developer tools — with professional experience spanning aviation logistics, ride-sharing platforms, and client-facing web applications.
+
+Virginia Tech '23 — B.S. Computer Engineering | AWS Certified
+
+- **Experience**: Professional experience across full stack development, consulting, and internal tooling.
+  - **Projects**: Open-source work spanning AI agents, embedded systems, voice AI, and web apps.
+  - **Get in touch**: Reach out via email or social media.
+
+## What I do
+
+- **Full stack development**: Building web and mobile applications with React, React Native, Next.js, and Node.js — from internal order management tools to ride-sharing platform APIs.
+  - **AI agents & cloud infrastructure**: Building async cloud agent infrastructure with [AgentMeld](https://agentmeld.com), plus MCP servers and CLI coding assistants.
+  - **Voice AI & embedded systems**: Developing abilities for [OpenHome](https://openhome.ai) voice AI platform, plus Arduino libraries for robotics with 35+ GitHub stars.
+  - **Open source**: 19+ public repositories on GitHub spanning TypeScript, Python, Rust, Swift, C++, and more.
+
+---
+Source: https://preetham.org/about
+---
+
+# About me
+
+I'm Preetham Kyanam, a software engineer based in Ashburn, Virginia. I graduated from Virginia Tech in May 2023 with a B.S. in Computer Engineering, concentrating in Controls, Robotics and Autonomy.
+
+I work across full stack development, AI agent infrastructure, and developer tooling. Professionally, I build internal web and mobile applications at Air Culinaire Worldwide and contribute to backend API development for a ride-sharing aggregation platform. Previously, I worked as a full stack developer at System Soft Technologies building client-facing web applications with Node.js and React.
+
+## What I'm building
+
+**[AgentMeld](https://agentmeld.com)** is a service I run that bridges asynchronous cloud agents with local coding agents, giving developers a way to offload long-running agentic tasks to the cloud while keeping local context. It's early-stage and actively in development.
+
+I also develop **abilities for [OpenHome](https://openhome.ai)**, a voice AI and smart speaker platform. The OpenHome team selected me for their developer grant program and provided a hardware dev kit to build on.
+
+In 2024, I founded **Kairobo Platforms LLC** to explore low-cost autonomous ground vehicles using consumer mobile devices as the compute platform. After validating the technical feasibility and scope, I dissolved the company pre-product.
+
+## What drives me
+
+I believe in learning by building. Whether it's a Rust-based CLI tool, an Arduino library that controls a Roomba, or an MCP server that wakes up a PS5 — every project is a chance to go deeper into a technology and ship something real.
+
+## Technical interests
+
+- **Full stack development** — React, React Native, Next.js, Node.js, Express.js
+- **AI agents & cloud infrastructure** — async agents, MCP servers, CLI assistants, AgentMeld
+- **Cloud & DevOps** — AWS (Lambda, SQS, EC2, S3), Docker, Terraform, CI/CD
+- **Voice AI** — OpenHome abilities, smart speaker development, voice-first UX
+- **Embedded systems & robotics** — Arduino, autonomous systems, hardware-software interfaces
+- **Systems programming** — Rust, C++
+- **Databases** — PostgreSQL, MongoDB, Redis
+
+---
+Source: https://preetham.org/experience/work
+---
+
+# Professional Experience
+
+## Logistics Specialist
+
+**Air Culinaire Worldwide** — Ashburn, VA (Hybrid) | July 2024 – Present
+
+- Manage client relationships across airport and FBO locations, coordinating order logistics for aviation catering operations
+- Develop internal order tracking and management application using Next.js, improving visibility into order status and workflows
+- Build mobile application to streamline driver delivery confirmation, reducing manual check-in processes
+- Leverage AI-assisted development tools to accelerate feature delivery across internal tooling
+
+## Software Engineering Consultant
+
+**BOB** — Ashburn, VA (Remote, Contract) | July 2024 – Present
+
+- Contribute to backend API development for a ride-sharing aggregation platform combining pricing data from multiple providers
+- Implement third-party API integrations connecting external ride-sharing provider APIs to internal backend services
+- Leverage AI-assisted development tools to accelerate integration work and maintain code quality
+
+## Full Stack Developer
+
+**System Soft Technologies** — Ashburn, VA (Hybrid) | September 2022 – March 2024
+
+- Assisted in development and maintenance of web applications using Node.js and React
+- Supported backend API development and database operations for client projects
+- Participated in code reviews and collaborative development workflows
+- Worked within Agile team environment following standard software development practices
+
+## Campus Leader
+
+**Apple** — Blacksburg, VA | May 2018 – February 2019
+
+- Served as Apple brand ambassador at Virginia Tech, supporting higher education marketing initiatives
+- Promoted Apple products and services to students and faculty through campus events and outreach
+- Collaborated with Apple Education and Apple Music marketing teams on campus activations
+
+---
+
+# Entrepreneurship
+
+## Kairobo Platforms LLC
+
+**Founder** — Ashburn, VA | May 2024 – October 2024
+
+- Founded startup to develop low-cost autonomous ground vehicles (AGVs) using consumer mobile devices as the primary compute platform
+- Proposed leveraging iPad Pro LiDAR arrays, Neural Engine, and camera systems to dramatically reduce AGV hardware costs versus traditional embedded compute
+- Conducted market research and technical feasibility analysis; dissolved pre-product after validating scope required additional resources
+
+---
+Source: https://preetham.org/experience/education
+---
+
+# Education
+
+## Virginia Tech
+
+**Bachelor of Science in Computer Engineering** — May 2023 | GPA: 3.15/4.0
+
+Virginia Polytechnic Institute and State University, Blacksburg, VA
+
+- **Concentration:** Controls, Robotics and Autonomy (CRA)
+- **Relevant Coursework:** Data Structures and Algorithms, Software Engineering, Database Systems, Operating Systems, Embedded Systems
+
+---
+
+# Certifications
+
+- **AWS Certified Cloud Practitioner**: Amazon Web Services
+  - **AWS Certified AI Practitioner**: Amazon Web Services
+  - **AWS ML Engineer Associate**: In progress
+
+---
+Source: https://preetham.org/experience/skills
+---
+
+# Skills
+
+## Languages
+
+- **JavaScript**: Web tooling, scripting, internal apps
+  - **TypeScript**: AgentMeld, cli-pk, gba-next, MCP servers
+  - **Python**: OpenHome voice AI, scripting, ML tooling
+  - **Swift**: gh-contributions-menu-bar, macOS apps
+  - **C++**: ArduRoomba, embedded systems
+  - **Rust**: rustyclaw, systems tooling
+  - **HTML / CSS**: Web interfaces and styling
+
+## Frameworks & Libraries
+
+- **React**: Component-based UIs, client projects
+  - **React Native**: Mobile application development
+  - **Node.js**: CLI tools, server-side development
+  - **Express.js**: Backend APIs and services
+  - **Next.js**: gba-next, internal web applications
+
+## AI & Machine Learning
+
+- **Anthropic Claude API**: cli-pk, AgentMeld agent infrastructure
+  - **OpenAI API**: LLM integrations
+  - **AI Agents**: Agentic workflows, MCP servers
+  - **Voice AI / NLP**: OpenHome ability development
+  - **Model Context Protocol**: claude-ps5-mcp, tool integrations
+  - **OpenRouter**: Multi-model routing in cli-pk
+
+## Cloud & DevOps
+
+- **AWS**: Lambda, SQS, EC2, S3
+  - **Docker**: Containerized deployments
+  - **Terraform**: Infrastructure as code
+  - **GitHub Actions**: CI/CD pipelines
+  - **Jenkins**: Build automation
+
+## Databases
+
+- **PostgreSQL**: Relational data stores
+  - **MongoDB**: Document databases
+  - **Redis**: Caching and session stores
+
+## Other
+
+- **REST APIs**: API design and integration
+  - **Embedded Systems**: Arduino, hardware-software interfaces
+  - **Robotics**: Autonomous systems, ArduRoomba
+  - **Git**: Version control across all projects
+  - **Agile / Scrum**: Team development workflows
+
+---
+Source: https://preetham.org/projects
+---
+
+# Projects
+
+A selection of projects, services, and open-source tools I've built and maintain. All open-source code is on [GitHub](https://github.com/pkyanam).
+
+## Featured
+
+- **AgentMeld**: Live service for running asynchronous cloud agents alongside local coding agents like Claude Code.
+  - **ArduRoomba**: Arduino library for controlling iRobot Roomba via Create 2 OI spec. **35+ stars** on GitHub.
+  - **cli-pk**: AI-powered coding assistant CLI supporting Anthropic Claude and OpenRouter models.
+  - **claude-ps5-mcp**: MCP server that lets Claude Code discover, register, and wake PS5 consoles on your local network.
+
+## More
+
+- **OpenHome Abilities**: Voice AI abilities for the OpenHome smart speaker platform, built on a dev kit from the OpenHome team.
+  - **gba-next**: GBA emulator running inside Next.js.
+  - **gh-contributions-menu-bar**: Native macOS menu bar app showing your GitHub contribution graph.
+  - **rustyclaw**: A tiny OpenClaw alternative built in Rust.
+  - **GPTmon**: A playful Pokémon clone created with AI coding tools.
+
+---
+Source: https://preetham.org/projects/agentmeld
+---
+
+# AgentMeld
+
+**Live service** — [agentmeld.com](https://agentmeld.com) | **TypeScript**
+
+AgentMeld is a service that enables asynchronous cloud agents to run alongside local coding agents like Claude Code — letting you offload long-running or compute-intensive agentic tasks to the cloud without blocking your local workflow.
+
+## The problem it solves
+
+Local coding agents are powerful but synchronous by nature — they block while waiting for results. Some tasks (long research loops, multi-step code generation, external API orchestration) don't need to hold up your terminal session. AgentMeld lets you fire off those tasks to the cloud and pick up the results when they're ready.
+
+## How it works
+
+- **Async cloud agents**: Dispatch agentic tasks to the cloud and let them run independently, freeing up your local agent for other work.
+  - **Local agent integration**: Designed to work alongside tools like Claude Code, preserving local context while leveraging remote compute.
+  - **Task orchestration**: Coordinate multi-step agent workflows that span both cloud and local environments.
+  - **Result retrieval**: Poll or receive callbacks when cloud agent tasks complete, then resume your local workflow.
+
+## Status
+
+AgentMeld is actively in development and early-stage. The architecture is being refined as the broader AI agent ecosystem — MCP, tool-calling, async runtimes — continues to mature.
+
+Interested in early access or want to collaborate? [Get in touch](/contact).
+
+---
+Source: https://preetham.org/projects/arduroomba
+---
+
+# ArduRoomba
+
+**GitHub** — [pkyanam/ArduRoomba](https://github.com/pkyanam/ArduRoomba) | **36 stars** | **C++**
+
+An Arduino library that allows an Arduino Uno to interface with iRobot Roomba models adhering to the Create 2 Open Interface specification.
+
+## What it does
+
+ArduRoomba provides a clean C++ API for controlling Roomba hardware directly from an Arduino. It handles serial communication, command encoding, and sensor data parsing — letting you focus on building interesting robotics projects on top of the Roomba platform.
+
+## Highlights
+
+- Clean C++ library designed for the Arduino IDE
+- Supports Roomba models using the Create 2 OI spec
+- Serial communication abstraction for motor control, sensors, and navigation
+- Most-starred project in my portfolio
+
+---
+Source: https://preetham.org/projects/cli-pk
+---
+
+# cli-pk
+
+**GitHub** — [pkyanam/cli-pk](https://github.com/pkyanam/cli-pk) | **JavaScript**
+
+A focused, AI-powered coding assistant with support for Anthropic Claude and OpenRouter models. CLI-PK helps you write, analyze, and execute code directly from your terminal.
+
+## What it does
+
+CLI-PK is a terminal-based coding assistant that connects to multiple LLM providers. It gives you a conversational coding workflow without leaving the command line.
+
+## Highlights
+
+- Multi-provider support — Anthropic Claude and OpenRouter models
+- Code generation, analysis, and execution from the terminal
+- Built with JavaScript for broad compatibility
+
+---
+Source: https://preetham.org/projects/claude-ps5-mcp
+---
+
+# claude-ps5-mcp
+
+**GitHub** — [pkyanam/claude-ps5-mcp](https://github.com/pkyanam/claude-ps5-mcp) | **TypeScript**
+
+A Model Context Protocol (MCP) server that enables Claude Code to discover, register, and wake PS5 consoles on your local network.
+
+## What it does
+
+This MCP server bridges Claude Code and your PS5. It uses network discovery and Wake-on-LAN to let you find and power on your console through natural language in the terminal.
+
+## Highlights
+
+- MCP server built with TypeScript
+- PS5 network discovery via local network scanning
+- Wake-on-LAN support to power on consoles remotely
+- Integrates directly with Claude Code's tool system
+
+---
+Source: https://preetham.org/projects/openhome-abilities
+---
+
+# OpenHome Abilities
+
+**Platform** — [OpenHome](https://openhome.ai) | Voice AI / Smart Speaker
+
+I develop custom abilities for **OpenHome**, a voice AI and smart speaker platform. Abilities are modular, voice-activated features — essentially apps for a voice assistant — that users can invoke hands-free on OpenHome devices.
+
+The OpenHome team provided me with a free hardware dev kit to build on the platform, as part of their developer program.
+
+## What is OpenHome?
+
+OpenHome is a modern voice AI platform powering smart speakers and voice-first interfaces. It's designed for extensibility — third-party developers can build and publish abilities that expand what the assistant can do.
+
+## Building for voice
+
+Developing for a voice-first platform is a distinct design challenge — there's no screen, no mouse, no keyboard. Everything has to work through natural spoken language:
+
+- **Conversational design**: Crafting interaction flows that feel natural in speech, with clear prompts and graceful error handling.
+  - **Intent handling**: Mapping spoken phrases to structured intents and extracting parameters from natural language.
+  - **External integrations**: Connecting voice triggers to APIs and services for real-world actions.
+  - **Hardware-first testing**: Testing on the actual OpenHome dev kit, not just a simulator, to validate the real speaker experience.
+
+## Why voice AI
+
+Voice interfaces are one of the most underexplored frontiers in developer tooling. As AI assistants become more capable, the ability to build reliable, expressive voice-first experiences is increasingly valuable — and OpenHome is one of the most developer-friendly platforms to build on.
+
+---
+Source: https://preetham.org/projects/gba-next
+---
+
+# gba-next
+
+**GitHub** — [pkyanam/gba-next](https://github.com/pkyanam/gba-next) | **TypeScript**
+
+A Game Boy Advance emulator running inside a Next.js web application.
+
+## Highlights
+
+- GBA emulation in the browser via Next.js
+- Built with TypeScript
+- Web-based retro gaming interface
+
+---
+Source: https://preetham.org/projects/gh-contributions-menu-bar
+---
+
+# gh-contributions-menu-bar
+
+**GitHub** — [pkyanam/gh-contributions-macos-menu-bar](https://github.com/pkyanam/gh-contributions-macos-menu-bar) | **Swift**
+
+A simple macOS menu bar app that displays your GitHub contribution graph.
+
+## Highlights
+
+- Native Swift macOS application
+- Lives in the menu bar for quick access
+- Shows your GitHub contribution history at a glance
+
+---
+Source: https://preetham.org/projects/rustyclaw
+---
+
+# rustyclaw
+
+**GitHub** — [pkyanam/rustyclaw](https://github.com/pkyanam/rustyclaw) | **Rust**
+
+A tiny OpenClaw alternative developed in Rust.
+
+## Highlights
+
+- Systems programming with Rust
+- Lightweight alternative implementation
+
+---
+Source: https://preetham.org/projects/gptmon
+---
+
+# GPTmon
+
+**GitHub** — [pkyanam/GPTmon](https://github.com/pkyanam/GPTmon) | **TypeScript**
+
+A playful clone of Pokemon, created using AI coding tools (GPT-5.3-Codex and Opus 4.6).
+
+## Highlights
+
+- Full game built primarily with AI-assisted coding
+- TypeScript implementation
+- A fun demonstration of what AI coding agents can produce
+
+---
+Source: https://preetham.org/contact
+---
+
+# Get in touch
+
+I'm always open to connecting — whether it's about a project, an opportunity, or just to chat about tech.
+
+- **Email**: kyanam.preetham@gmail.com
+  - **GitHub**: @pkyanam
+  - **LinkedIn**: Preetham Kyanam
+  - **X**: @pkyanam

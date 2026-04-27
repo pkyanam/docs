@@ -2,6 +2,8 @@
 
 > Software engineer based in Ashburn, Virginia. B.S. Computer Engineering from Virginia Tech (2023). Full stack developer, AI agent builder, and open-source contributor. AWS Certified Cloud Practitioner and AI Practitioner.
 
+> For all page content in a single file, see [llms-full.txt](/llms-full.txt). For lightweight markdown versions of individual pages, append `.md` to any URL below (e.g. `/about.md`).
+
 ## Docs
 
 - [Preetham Kyanam](https://preetham.org/index.md): Software engineer building full stack applications, AI agents, and developer tools
