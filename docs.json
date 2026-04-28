@@ -1,6 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
+  "description": "Preetham Kyanam — software engineer based in Ashburn, Virginia. Full stack developer, AI agent builder, and open-source contributor. B.S. Computer Engineering from Virginia Tech (2023). AWS Certified Cloud Practitioner and AI Practitioner.",
   "name": "Preetham Kyanam",
   "colors": {
     "primary": "#2563EB",
@@ -37,15 +38,7 @@
       },
       {
         "tab": "About",
-        "groups": [
-          {
-            "group": "",
-            "pages": [
-              "index",
-              "about"
-            ]
-          }
-        ]
+        "pages": ["about"]
       },
       {
         "tab": "Experience",
@@ -62,14 +55,7 @@
       },
       {
         "tab": "Contact",
-        "groups": [
-          {
-            "group": "",
-            "pages": [
-              "contact"
-            ]
-          }
-        ]
+        "pages": ["contact"]
       }
     ],
     "global": {
