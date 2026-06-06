@@ -1,50 +1,64 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "description": "Preetham Kyanam — software engineer based in Ashburn, Virginia. Full stack developer, AI agent builder, and open-source contributor. B.S. Computer Engineering from Virginia Tech (2023). AWS Certified Cloud Practitioner and AI Practitioner.",
-  "name": "Preetham Kyanam",
+  "name": "preetham kyanam",
+  "appearance": {
+    "default": "dark",
+    "strict": true
+  },
   "colors": {
-    "primary": "#2563EB",
-    "light": "#3B82F6",
-    "dark": "#1D4ED8"
+    "primary": "#FFFFFF",
+    "light": "#FFFFFF",
+    "dark": "#000000"
+  },
+  "fonts": {
+    "heading": {
+      "family": "Geist"
+    },
+    "body": {
+      "family": "Geist"
+    }
   },
   "favicon": "/favicon.svg",
   "navigation": {
     "tabs": [
       {
-        "tab": "Projects",
+        "tab": "about",
+        "pages": [
+          "index",
+          "about",
+          "stats"
+        ]
+      },
+      {
+        "tab": "projects",
         "groups": [
           {
-            "group": "Featured",
+            "group": "belweave",
             "pages": [
               "projects/index",
-              "projects/agentmeld",
-              "projects/arduroomba",
-              "projects/cli-pk",
-              "projects/claude-ps5-mcp"
+              "projects/trifecta",
+              "projects/brainbase",
+              "projects/arduroomba"
             ]
           },
           {
-            "group": "More projects",
+            "group": "more",
             "pages": [
-              "projects/openhome-abilities",
+              "projects/claude-ps5-mcp",
               "projects/gba-next",
-              "projects/gh-contributions-menu-bar",
-              "projects/rustyclaw",
-              "projects/gptmon"
+              "projects/codex-ios",
+              "projects/openhome-abilities",
+              "projects/gh-contributions-menu-bar"
             ]
           }
         ]
       },
       {
-        "tab": "About",
-        "pages": ["about"]
-      },
-      {
-        "tab": "Experience",
+        "tab": "experience",
         "groups": [
           {
-            "group": "Background",
+            "group": "background",
             "pages": [
               "experience/work",
               "experience/education",
@@ -54,19 +68,27 @@
         ]
       },
       {
-        "tab": "Contact",
-        "pages": ["contact"]
+        "tab": "writing",
+        "pages": [
+          "writing/index"
+        ]
+      },
+      {
+        "tab": "contact",
+        "pages": [
+          "contact"
+        ]
       }
     ],
     "global": {
       "anchors": [
         {
-          "anchor": "GitHub",
+          "anchor": "github",
           "href": "https://github.com/pkyanam",
           "icon": "github"
         },
         {
-          "anchor": "LinkedIn",
+          "anchor": "linkedin",
           "href": "https://linkedin.com/in/preethamkyanam",
           "icon": "linkedin"
         }
@@ -80,13 +102,13 @@
   "navbar": {
     "links": [
       {
-        "label": "Email",
+        "label": "email",
         "href": "mailto:kyanam.preetham@gmail.com"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "GitHub",
+      "label": "github",
       "href": "https://github.com/pkyanam"
     }
   },

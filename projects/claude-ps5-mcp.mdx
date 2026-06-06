@@ -1,21 +1,33 @@
 ---
 title: "claude-ps5-mcp"
-description: "MCP server for PS5 discovery and Wake-on-LAN"
+description: "mcp server that lets claude code discover and wake ps5 consoles"
+mode: "frame"
 ---
 
-<Info>
-  **GitHub** — [pkyanam/claude-ps5-mcp](https://github.com/pkyanam/claude-ps5-mcp) | **TypeScript**
-</Info>
+# claude-ps5-mcp
 
-A Model Context Protocol (MCP) server that enables Claude Code to discover, register, and wake PS5 consoles on your local network.
+<p className="pk-keepcase">
+  <img src="https://img.shields.io/github/stars/pkyanam/claude-ps5-mcp?style=for-the-badge&logo=github&label=stars&color=0d1117&labelColor=000000&logoColor=ffffff" alt="github stars" />
+</p>
 
-## What it does
+a model context protocol (mcp) server that lets claude code discover, register, and wake ps5 consoles on your local network — all through natural language. published to npm.
 
-This MCP server bridges Claude Code and your PS5. It uses network discovery and Wake-on-LAN to let you find and power on your console through natural language in the terminal.
+<div className="pk-actions" style={{ margin: "1rem 0 1.5rem" }}>
+  <a className="pk-btn" href="https://github.com/pkyanam/claude-ps5-mcp">github ↗</a>
+</div>
 
-## Highlights
+<div className="pk-tags">
+  <span className="pk-tag">typescript</span>
+  <span className="pk-tag">mcp</span>
+  <span className="pk-tag">psn auth</span>
+  <span className="pk-tag">udp discovery</span>
+  <span className="pk-tag">wake-on-lan</span>
+</div>
 
-- MCP server built with TypeScript
-- PS5 network discovery via local network scanning
-- Wake-on-LAN support to power on consoles remotely
-- Integrates directly with Claude Code's tool system
+## what it does
+
+this mcp server bridges claude code and your ps5. it uses psn authentication, udp discovery, and wake-on-lan to find your console and power it on — exposed to claude as tools you can invoke conversationally from the terminal.
+
+## links
+
+- source: [github.com/pkyanam/claude-ps5-mcp](https://github.com/pkyanam/claude-ps5-mcp)

@@ -1,43 +1,201 @@
 ---
-title: "Projects"
-description: "Open-source projects and services I've built"
+title: "projects"
+description: "things i build under belweave — my independent ai r&d lab"
+mode: "frame"
 ---
 
-A selection of projects, services, and open-source tools I've built and maintain. All open-source code is on [GitHub](https://github.com/pkyanam).
+<div className="pk-band">
+  <div className="pk-band-title">belweave</div>
+  <p className="pk-band-desc">
+    my independent ai r&d lab — where i build and break things outside of work.
+    it isn't a company (yet); it's the umbrella i put my projects under. below
+    are the ones i'd point you to first, followed by a live feed of whatever
+    i'm currently pushing to github.
+  </p>
+</div>
 
-## Featured
+<div className="pk-eyebrow">flagships</div>
 
-<CardGroup cols={2}>
-  <Card title="AgentMeld" icon="cloud" href="/projects/agentmeld">
-    Live service for running asynchronous cloud agents alongside local coding agents like Claude Code.
-  </Card>
-  <Card title="ArduRoomba" icon="robot" href="/projects/arduroomba">
-    Arduino library for controlling iRobot Roomba via Create 2 OI spec. **35+ stars** on GitHub.
-  </Card>
-  <Card title="cli-pk" icon="terminal" href="/projects/cli-pk">
-    AI-powered coding assistant CLI supporting Anthropic Claude and OpenRouter models.
-  </Card>
-  <Card title="claude-ps5-mcp" icon="gamepad" href="/projects/claude-ps5-mcp">
-    MCP server that lets Claude Code discover, register, and wake PS5 consoles on your local network.
-  </Card>
-</CardGroup>
+<div className="pk-grid pk-grid--2">
+  <a className="pk-card" href="/projects/trifecta">
+    <div className="pk-card-top">
+      <p className="pk-card-title">trifecta</p>
+      <span className="pk-arrow">→</span>
+    </div>
+    <p className="pk-card-desc">
+      cross-platform coding agent platform — a desktop server that runs ai
+      coding agents, plus native ios and android clients to drive them from
+      anywhere.
+    </p>
+    <div className="pk-card-meta">
+      <span>typescript</span>
+      <span>public beta</span>
+    </div>
+  </a>
+  <a className="pk-card" href="/projects/brainbase">
+    <div className="pk-card-top">
+      <p className="pk-card-title">brainbase + graphbrain</p>
+      <span className="pk-arrow">→</span>
+    </div>
+    <p className="pk-card-desc">
+      a knowledge-graph api for ai agents, backed by graphbrain — a neo4j-powered
+      graph database with one-click provisioning.
+    </p>
+    <div className="pk-card-meta">
+      <span>typescript</span>
+      <span>neo4j</span>
+    </div>
+  </a>
+  <a className="pk-card" href="/projects/arduroomba">
+    <div className="pk-card-top">
+      <p className="pk-card-title">arduroomba</p>
+      <span className="pk-arrow">→</span>
+    </div>
+    <p className="pk-card-desc">
+      arduino library that brings legacy irobot roombas back to life — full open
+      interface support over wifi and ble. covered by hackster.io.
+    </p>
+    <div className="pk-card-meta">
+      <span>c++</span>
+      <span>most-starred</span>
+    </div>
+  </a>
+</div>
 
-## More
+<div className="pk-eyebrow">more</div>
 
-<CardGroup cols={2}>
-  <Card title="OpenHome Abilities" icon="microphone" href="/projects/openhome-abilities">
-    Voice AI abilities for the OpenHome smart speaker platform, built on a dev kit from the OpenHome team.
-  </Card>
-  <Card title="gba-next" icon="gamepad" href="/projects/gba-next">
-    GBA emulator running inside Next.js.
-  </Card>
-  <Card title="gh-contributions-menu-bar" icon="chart-bar" href="/projects/gh-contributions-menu-bar">
-    Native macOS menu bar app showing your GitHub contribution graph.
-  </Card>
-  <Card title="rustyclaw" icon="gear" href="/projects/rustyclaw">
-    A tiny OpenClaw alternative built in Rust.
-  </Card>
-  <Card title="GPTmon" icon="bolt" href="/projects/gptmon">
-    A playful Pokémon clone created with AI coding tools.
-  </Card>
-</CardGroup>
+<div className="pk-grid">
+  <a className="pk-card" href="/projects/claude-ps5-mcp">
+    <div className="pk-card-top">
+      <p className="pk-card-title">claude-ps5-mcp</p>
+      <span className="pk-arrow">→</span>
+    </div>
+    <p className="pk-card-desc">
+      mcp server that lets claude code discover and wake ps5 consoles on your
+      network. published to npm.
+    </p>
+  </a>
+  <a className="pk-card" href="/projects/gba-next">
+    <div className="pk-card-top">
+      <p className="pk-card-title">gba-next</p>
+      <span className="pk-arrow">→</span>
+    </div>
+    <p className="pk-card-desc">
+      a game boy advance emulator with arm7tdmi cpu emulation, running entirely
+      in the browser on next.js.
+    </p>
+  </a>
+  <a className="pk-card" href="/projects/codex-ios">
+    <div className="pk-card-top">
+      <p className="pk-card-title">codex-ios</p>
+      <span className="pk-arrow">→</span>
+    </div>
+    <p className="pk-card-desc">
+      a native ios app for openai codex, plus a swift sdk for the codex api.
+    </p>
+  </a>
+  <a className="pk-card" href="/projects/openhome-abilities">
+    <div className="pk-card-top">
+      <p className="pk-card-title">openhome abilities</p>
+      <span className="pk-arrow">→</span>
+    </div>
+    <p className="pk-card-desc">
+      voice ai abilities for the openhome smart speaker platform, built on a dev
+      kit from their developer program.
+    </p>
+  </a>
+  <a className="pk-card" href="/projects/gh-contributions-menu-bar">
+    <div className="pk-card-top">
+      <p className="pk-card-title">gh-contributions-menu-bar</p>
+      <span className="pk-arrow">→</span>
+    </div>
+    <p className="pk-card-desc">
+      native macos menu bar app that shows your github contribution graph at a
+      glance.
+    </p>
+  </a>
+</div>
+
+<div className="pk-eyebrow">latest from github</div>
+
+<p className="pk-hero-sub">auto-refreshed daily from the github api — what i'm actively pushing to.</p>
+
+{/* AUTOREPOS:START — generated by scripts/update_projects.py, do not edit by hand */}
+<div className="pk-grid">
+  <a className="pk-card" href="https://github.com/pkyanam/t3code-ios">
+    <div className="pk-card-top">
+      <p className="pk-card-title">t3code-ios</p>
+      <span className="pk-arrow">→</span>
+    </div>
+    <p className="pk-card-desc">T3 Code is a minimal iOS GUI for coding agents</p>
+    <div className="pk-card-meta">
+      <span>🟧 Swift</span>
+      <span>★ 3</span>
+      <span>pushed 27d ago</span>
+    </div>
+  </a>
+  <a className="pk-card" href="https://github.com/pkyanam/jellyflex">
+    <div className="pk-card-top">
+      <p className="pk-card-title">jellyflex</p>
+      <span className="pk-arrow">→</span>
+    </div>
+    <p className="pk-card-desc">no description yet</p>
+    <div className="pk-card-meta">
+      <span>🟨 JavaScript</span>
+      <span>★ 3</span>
+      <span>pushed 1mo ago</span>
+    </div>
+  </a>
+  <a className="pk-card" href="https://github.com/pkyanam/graphbrain-dashboard">
+    <div className="pk-card-top">
+      <p className="pk-card-title">graphbrain-dashboard</p>
+      <span className="pk-arrow">→</span>
+    </div>
+    <p className="pk-card-desc">no description yet</p>
+    <div className="pk-card-meta">
+      <span>🟨 JavaScript</span>
+      <span>★ 1</span>
+      <span>pushed 1mo ago</span>
+    </div>
+  </a>
+  <a className="pk-card" href="https://github.com/pkyanam/pkstack">
+    <div className="pk-card-top">
+      <p className="pk-card-title">pkstack</p>
+      <span className="pk-arrow">→</span>
+    </div>
+    <p className="pk-card-desc">The first TypeScript starter kit designed from first principles for human + AI agent co-development.</p>
+    <div className="pk-card-meta">
+      <span>🟦 TypeScript</span>
+      <span>★ 11</span>
+      <span>pushed 1mo ago</span>
+    </div>
+  </a>
+  <a className="pk-card" href="https://github.com/pkyanam/tallyhand">
+    <div className="pk-card-top">
+      <p className="pk-card-title">tallyhand</p>
+      <span className="pk-arrow">→</span>
+    </div>
+    <p className="pk-card-desc">no description yet</p>
+    <div className="pk-card-meta">
+      <span>🟦 TypeScript</span>
+      <span>★ 1</span>
+      <span>pushed 1mo ago</span>
+      <span><a href="https://tallyhand.vercel.app">live ↗</a></span>
+    </div>
+  </a>
+  <a className="pk-card" href="https://github.com/pkyanam/arcane-engine">
+    <div className="pk-card-top">
+      <p className="pk-card-title">arcane-engine</p>
+      <span className="pk-arrow">→</span>
+    </div>
+    <p className="pk-card-desc">Arcane Engine is a small framework for making 3D games in the browser.</p>
+    <div className="pk-card-meta">
+      <span>🟦 TypeScript</span>
+      <span>★ 1</span>
+      <span>pushed 1mo ago</span>
+    </div>
+  </a>
+</div>
+
+<p className="pk-hero-sub">last refreshed 2026-06-06 · showing 6 of 18 non-fork repos</p>
+{/* AUTOREPOS:END */}

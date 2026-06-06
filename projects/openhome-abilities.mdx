@@ -1,41 +1,47 @@
 ---
-title: "OpenHome Abilities"
-description: "Voice AI abilities for the OpenHome smart speaker platform"
+title: "openhome abilities"
+description: "voice ai abilities for the openhome smart speaker platform"
+mode: "frame"
 ---
 
-<Info>
-  **Platform** — [OpenHome](https://openhome.ai) | Voice AI / Smart Speaker
-</Info>
+# openhome abilities
 
-I develop custom abilities for **OpenHome**, a voice AI and smart speaker platform. Abilities are modular, voice-activated features — essentially apps for a voice assistant — that users can invoke hands-free on OpenHome devices.
+i develop custom abilities for **[openhome](https://openhome.ai)**, a voice ai and smart speaker platform. abilities are modular, voice-activated features — essentially apps for a voice assistant — that users invoke hands-free on openhome devices.
+
+<div className="pk-tags">
+  <span className="pk-tag">python</span>
+  <span className="pk-tag">voice ai</span>
+  <span className="pk-tag">nlp</span>
+  <span className="pk-tag">dev-kit grant</span>
+</div>
 
 <Note>
-  The OpenHome team provided me with a free hardware dev kit to build on the platform, as part of their developer program.
+  the openhome team selected me for their developer program and provided a hardware dev kit to build on.
 </Note>
 
-## What is OpenHome?
+## building for voice
 
-OpenHome is a modern voice AI platform powering smart speakers and voice-first interfaces. It's designed for extensibility — third-party developers can build and publish abilities that expand what the assistant can do.
+a voice-first platform is a distinct design challenge — no screen, no mouse, no keyboard. everything works through natural spoken language:
 
-## Building for voice
+<div className="pk-grid pk-grid--2">
+  <div className="pk-card">
+    <p className="pk-card-title">conversational design</p>
+    <p className="pk-card-desc">interaction flows that feel natural in speech, with clear prompts and graceful error handling.</p>
+  </div>
+  <div className="pk-card">
+    <p className="pk-card-title">intent handling</p>
+    <p className="pk-card-desc">mapping spoken phrases to structured intents and pulling parameters out of natural language.</p>
+  </div>
+  <div className="pk-card">
+    <p className="pk-card-title">external integrations</p>
+    <p className="pk-card-desc">wiring voice triggers to apis and services for real-world actions.</p>
+  </div>
+  <div className="pk-card">
+    <p className="pk-card-title">hardware-first testing</p>
+    <p className="pk-card-desc">testing on the actual dev kit, not just a simulator, to validate the real speaker experience.</p>
+  </div>
+</div>
 
-Developing for a voice-first platform is a distinct design challenge — there's no screen, no mouse, no keyboard. Everything has to work through natural spoken language:
+## links
 
-<CardGroup cols={2}>
-  <Card title="Conversational design" icon="comments">
-    Crafting interaction flows that feel natural in speech, with clear prompts and graceful error handling.
-  </Card>
-  <Card title="Intent handling" icon="bullseye">
-    Mapping spoken phrases to structured intents and extracting parameters from natural language.
-  </Card>
-  <Card title="External integrations" icon="plug">
-    Connecting voice triggers to APIs and services for real-world actions.
-  </Card>
-  <Card title="Hardware-first testing" icon="volume-high">
-    Testing on the actual OpenHome dev kit, not just a simulator, to validate the real speaker experience.
-  </Card>
-</CardGroup>
-
-## Why voice AI
-
-Voice interfaces are one of the most underexplored frontiers in developer tooling. As AI assistants become more capable, the ability to build reliable, expressive voice-first experiences is increasingly valuable — and OpenHome is one of the most developer-friendly platforms to build on.
+- platform: [openhome.ai](https://openhome.ai)

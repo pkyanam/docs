@@ -1,21 +1,71 @@
 ---
-title: "Contact"
-description: "Get in touch with me"
+title: "contact"
+description: "get in touch with me"
+mode: "custom"
 ---
 
-I'm always open to connecting — whether it's about a project, an opportunity, or just to chat about tech.
+<div className="pk-landing">
 
-<CardGroup cols={2}>
-  <Card title="Email" icon="envelope" href="mailto:kyanam.preetham@gmail.com">
-    kyanam.preetham@gmail.com
-  </Card>
-  <Card title="GitHub" icon="github" href="https://github.com/pkyanam">
-    @pkyanam
-  </Card>
-  <Card title="LinkedIn" icon="linkedin" href="https://linkedin.com/in/preethamkyanam">
-    Preetham Kyanam
-  </Card>
-  <Card title="X" icon="x-twitter" href="https://x.com/pkyanam">
-    @pkyanam
-  </Card>
-</CardGroup>
+# get in touch
+
+drop me a message below, or reach out directly — i'm open to projects, opportunities, or just talking shop about agents, emulation, and embedded systems.
+
+{/*
+  the form posts a single condensed message as json to the endpoint in
+  `data-endpoint`. it isn't live yet — replace the url below (and the
+  fallback in /contact.js) with your real endpoint when it's ready.
+*/}
+
+<form id="pk-contact-form" className="pk-form" data-endpoint="https://REPLACE-ME.example.com/contact">
+  <div className="pk-field">
+    <label className="pk-label" htmlFor="pk-name">name</label>
+    <input className="pk-input" id="pk-name" name="name" type="text" placeholder="your name" required />
+  </div>
+  <div className="pk-field">
+    <label className="pk-label" htmlFor="pk-email">email</label>
+    <input className="pk-input" id="pk-email" name="email" type="email" placeholder="you@example.com" required />
+  </div>
+  <div className="pk-field">
+    <label className="pk-label" htmlFor="pk-message">message</label>
+    {/* mintlify's mdx sanitizer strips <textarea>, so contact.js mounts it here */}
+    <div id="pk-message-mount"></div>
+  </div>
+  <button className="pk-submit" type="submit">send message</button>
+  <p id="pk-contact-status" className="pk-status"></p>
+</form>
+
+<div className="pk-eyebrow">elsewhere</div>
+
+<div className="pk-grid">
+  <a className="pk-card" href="mailto:kyanam.preetham@gmail.com">
+    <div className="pk-card-top">
+      <p className="pk-card-title">email</p>
+      <span className="pk-arrow">→</span>
+    </div>
+    <p className="pk-card-desc pk-keepcase">kyanam.preetham@gmail.com</p>
+  </a>
+  <a className="pk-card" href="https://github.com/pkyanam">
+    <div className="pk-card-top">
+      <p className="pk-card-title">github</p>
+      <span className="pk-arrow">→</span>
+    </div>
+    <p className="pk-card-desc">@pkyanam</p>
+  </a>
+  <a className="pk-card" href="https://linkedin.com/in/preethamkyanam">
+    <div className="pk-card-top">
+      <p className="pk-card-title">linkedin</p>
+      <span className="pk-arrow">→</span>
+    </div>
+    <p className="pk-card-desc">preetham kyanam</p>
+  </a>
+  <a className="pk-card" href="https://x.com/pkyanam">
+    <div className="pk-card-top">
+      <p className="pk-card-title">x</p>
+      <span className="pk-arrow">→</span>
+    </div>
+    <p className="pk-card-desc">@pkyanam</p>
+  </a>
+</div>
+
+</div>
+

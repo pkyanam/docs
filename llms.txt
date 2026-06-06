@@ -1,35 +1,35 @@
 # Preetham Kyanam
 
-> Software engineer based in Ashburn, Virginia. B.S. Computer Engineering from Virginia Tech (2023). Full stack developer, AI agent builder, and open-source contributor. AWS Certified Cloud Practitioner and AI Practitioner.
+> Computer engineer based in Ashburn, Virginia. B.S. Computer Engineering from Virginia Tech (2023). Works at the intersection of embedded systems, emulation, and AI agent infrastructure. IT contractor at Harrington Process Solutions (HIPCO) on internal applications and AI initiatives, and builder of independent projects under Belweave, his personal AI R&D lab. AWS Certified Cloud Practitioner and AI Practitioner.
 
-> For all page content in a single file, see [llms-full.txt](/llms-full.txt). For lightweight markdown versions of individual pages, append `.md` to any URL below (e.g. `/about.md`).
+> The site renders entirely in lowercase as a stylistic choice; this metadata file keeps normal case for readability. For all page content in a single file, see [llms-full.txt](/llms-full.txt). For lightweight markdown versions of individual pages, append `.md` to any URL below (e.g. `/about.md`).
 
-## Docs
+## Pages
 
-- [Preetham Kyanam](https://preetham.org/index.md): Software engineer building full stack applications, AI agents, and developer tools
-- [About](https://preetham.org/about.md): A bit more about me
-- [Work Experience](https://preetham.org/experience/work.md): Professional experience and entrepreneurship
+- [Home](https://preetham.org/index.md): Computer engineer building at the intersection of embedded systems, emulation, and AI agents
+- [About](https://preetham.org/about.md): Background, current work, and technical interests
+- [Stats](https://preetham.org/stats.md): Live GitHub stats, auto-refreshed daily and on every page load
+- [Work](https://preetham.org/experience/work.md): Professional experience and independent work
 - [Education](https://preetham.org/experience/education.md): Academic background and certifications
-- [Skills](https://preetham.org/experience/skills.md): Languages, frameworks, and tools I work with
-- [AgentMeld](https://preetham.org/projects/agentmeld.md): Asynchronous cloud agents alongside local coding agents
-- [ArduRoomba](https://preetham.org/projects/arduroomba.md): Arduino library for controlling iRobot Roomba
-- [cli-pk](https://preetham.org/projects/cli-pk.md): AI-powered coding assistant CLI
-- [claude-ps5-mcp](https://preetham.org/projects/claude-ps5-mcp.md): MCP server for PS5 discovery and Wake-on-LAN
+- [Skills](https://preetham.org/experience/skills.md): Languages, frameworks, and tools
+- [Writing](https://preetham.org/writing/index.md): Notes on what I'm building (coming soon)
+- [Contact](https://preetham.org/contact.md): Contact form and links
+
+## Projects
+
+- [Projects](https://preetham.org/projects/index.md): Things built under Belweave, plus a live feed of latest GitHub activity
+- [trifecta](https://preetham.org/projects/trifecta.md): Cross-platform coding agent platform — desktop server plus native iOS/Android clients (public beta)
+- [brainbase + graphbrain](https://preetham.org/projects/brainbase.md): Knowledge-graph API for AI agents, backed by a Neo4j graph database
+- [ArduRoomba](https://preetham.org/projects/arduroomba.md): Arduino library that revives legacy iRobot Roombas (most-starred, covered by Hackster.io)
+- [claude-ps5-mcp](https://preetham.org/projects/claude-ps5-mcp.md): MCP server that wakes PS5 consoles via Claude Code
+- [gba-next](https://preetham.org/projects/gba-next.md): Game Boy Advance emulator with ARM7TDMI CPU emulation, in the browser
+- [codex-ios](https://preetham.org/projects/codex-ios.md): Native iOS app for OpenAI Codex, plus a Swift SDK
 - [OpenHome Abilities](https://preetham.org/projects/openhome-abilities.md): Voice AI abilities for the OpenHome smart speaker platform
-- [gba-next](https://preetham.org/projects/gba-next.md): GBA emulator inside Next.js
-- [gh-contributions-menu-bar](https://preetham.org/projects/gh-contributions-menu-bar.md): macOS menu bar app for GitHub contributions
-- [rustyclaw](https://preetham.org/projects/rustyclaw.md): OpenClaw alternative in Rust
-- [GPTmon](https://preetham.org/projects/gptmon.md): AI-generated Pokemon clone
-- [Projects](https://preetham.org/projects/index.md): Open-source projects and services I've built
-- [Contact](https://preetham.org/contact.md): Get in touch
-
-## OpenAPI Specs
-
-- [openapi](https://preetham.org/api-reference/openapi.json)
+- [gh-contributions-menu-bar](https://preetham.org/projects/gh-contributions-menu-bar.md): macOS menu bar app for the GitHub contribution graph
 
 ## Optional
 
-- [GitHub](https://github.com/pkyanam)
-- LinkedIn: linkedin.com/in/preethamkyanam
-- X/Twitter: x.com/pkyanam
+- GitHub: https://github.com/pkyanam
+- LinkedIn: https://linkedin.com/in/preethamkyanam
+- X/Twitter: https://x.com/pkyanam
 - Email: kyanam.preetham@gmail.com

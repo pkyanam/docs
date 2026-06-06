@@ -1,0 +1,479 @@
+/* ============================================================
+   preetham.org — pure white-on-black, vercel/geist aesthetic
+   ============================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700&family=Geist+Mono:wght@400;500;600&display=swap');
+
+:root {
+  --pk-bg: #000000;
+  --pk-surface: #0a0a0a;
+  --pk-surface-2: #111111;
+  --pk-border: #1f1f1f;
+  --pk-border-strong: #333333;
+  --pk-text: #ededed;
+  --pk-muted: #a1a1a1;
+  --pk-faint: #6b6b6b;
+  --pk-white: #ffffff;
+  --pk-mono: 'Geist Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+  --pk-sans: 'Geist', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+/* ---- force lowercase end to end (code kept as-authored) ---- */
+body,
+button,
+input,
+textarea,
+select {
+  text-transform: lowercase;
+}
+code,
+pre,
+kbd,
+samp,
+.pk-keepcase,
+.pk-keepcase * {
+  text-transform: none !important;
+}
+
+/* ---- pure black canvas ---- */
+html,
+body {
+  background-color: var(--pk-bg) !important;
+  color: var(--pk-text);
+  font-family: var(--pk-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ---- existing llms directive helper ---- */
+.llms-directive {
+  font-size: 0.75rem;
+  opacity: 0.4;
+  margin-bottom: -0.5rem;
+}
+.llms-directive blockquote {
+  margin: 0;
+  padding: 0.25rem 0.5rem;
+  border-left: 2px solid currentColor;
+}
+
+/* ============================================================
+   landing container (mode: custom is full-bleed — pad + cap it)
+   ============================================================ */
+.pk-landing {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 2.5rem clamp(1.25rem, 4vw, 3rem) 5rem;
+}
+
+/* ============================================================
+   hero
+   ============================================================ */
+.pk-hero {
+  padding: 1rem 0 2.5rem;
+  border-bottom: 1px solid var(--pk-border);
+  margin-bottom: 2.5rem;
+}
+.pk-hero-name {
+  font-size: clamp(2.4rem, 6vw, 4rem);
+  font-weight: 600;
+  letter-spacing: -0.04em;
+  line-height: 1.02;
+  margin: 0 0 1rem;
+  color: var(--pk-white);
+}
+.pk-hero-tag {
+  font-size: clamp(1.05rem, 2.4vw, 1.4rem);
+  line-height: 1.5;
+  color: var(--pk-muted);
+  max-width: 38ch;
+  margin: 0 0 0.6rem;
+  font-weight: 400;
+}
+.pk-hero-tag strong {
+  color: var(--pk-text);
+  font-weight: 500;
+}
+.pk-hero-sub {
+  font-family: var(--pk-mono);
+  font-size: 0.8rem;
+  color: var(--pk-faint);
+  letter-spacing: 0.01em;
+  margin: 0 0 1.6rem;
+}
+.pk-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+.pk-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.55rem 1rem;
+  border-radius: 8px;
+  border: 1px solid var(--pk-border);
+  background: transparent;
+  color: var(--pk-text) !important;
+  font-size: 0.875rem;
+  font-weight: 500;
+  text-decoration: none !important;
+  transition: all 0.15s ease;
+}
+.pk-btn:hover {
+  border-color: var(--pk-border-strong);
+  background: var(--pk-surface);
+}
+.pk-btn-primary {
+  background: var(--pk-white);
+  color: #000 !important;
+  border-color: var(--pk-white);
+}
+.pk-btn-primary:hover {
+  background: #e0e0e0;
+  border-color: #e0e0e0;
+}
+
+/* ============================================================
+   section labels / eyebrows
+   ============================================================ */
+.pk-eyebrow {
+  font-family: var(--pk-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.18em;
+  color: var(--pk-faint);
+  margin: 2.5rem 0 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+.pk-eyebrow::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: var(--pk-border);
+}
+
+/* ============================================================
+   card grid (projects, what i do)
+   ============================================================ */
+.pk-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 0.85rem;
+}
+.pk-grid--2 {
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+.pk-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1.4rem;
+  background: var(--pk-bg);
+  border: 1px solid var(--pk-border);
+  border-radius: 12px;
+  text-decoration: none !important;
+  transition: background 0.15s ease, border-color 0.15s ease;
+  min-height: 130px;
+}
+a.pk-card:hover {
+  background: var(--pk-surface);
+  border-color: var(--pk-border-strong);
+}
+.pk-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+.pk-card-title {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--pk-white) !important;
+  letter-spacing: -0.01em;
+  margin: 0;
+}
+.pk-card-desc {
+  font-size: 0.875rem;
+  line-height: 1.55;
+  color: var(--pk-muted);
+  margin: 0;
+}
+.pk-card-meta {
+  margin-top: auto;
+  padding-top: 0.6rem;
+  font-family: var(--pk-mono);
+  font-size: 0.72rem;
+  color: var(--pk-faint);
+  display: flex;
+  gap: 0.9rem;
+  flex-wrap: wrap;
+}
+.pk-arrow {
+  color: var(--pk-faint);
+  transition: transform 0.15s ease, color 0.15s ease;
+}
+a.pk-card:hover .pk-arrow {
+  transform: translateX(2px);
+  color: var(--pk-text);
+}
+
+/* ---- tags / chips ---- */
+.pk-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0.5rem 0;
+}
+.pk-tag {
+  font-family: var(--pk-mono);
+  font-size: 0.72rem;
+  color: var(--pk-muted);
+  border: 1px solid var(--pk-border);
+  border-radius: 999px;
+  padding: 0.2rem 0.65rem;
+  background: var(--pk-surface);
+}
+
+/* ============================================================
+   belweave band
+   ============================================================ */
+.pk-band {
+  border: 1px solid var(--pk-border);
+  border-radius: 12px;
+  padding: 1.6rem 1.8rem;
+  background: var(--pk-surface);
+  margin: 0.5rem 0 2rem;
+}
+.pk-band-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  margin: 0 0 0.4rem;
+  color: var(--pk-white);
+}
+.pk-band-desc {
+  color: var(--pk-muted);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin: 0;
+  max-width: 60ch;
+}
+
+/* ============================================================
+   stats dashboard
+   ============================================================ */
+.pk-stat-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 0.85rem;
+  margin: 1rem 0 2rem;
+}
+.pk-stat {
+  background: var(--pk-bg);
+  border: 1px solid var(--pk-border);
+  border-radius: 12px;
+  padding: 1.5rem 1.3rem;
+}
+.pk-stat-num {
+  font-size: 2.1rem;
+  font-weight: 600;
+  letter-spacing: -0.03em;
+  color: var(--pk-white);
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+}
+.pk-stat-label {
+  font-family: var(--pk-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+  color: var(--pk-faint);
+  margin-top: 0.5rem;
+}
+.pk-cards-img {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin: 1rem 0;
+}
+.pk-cards-img img {
+  border: 1px solid var(--pk-border);
+  border-radius: 10px;
+  background: var(--pk-surface);
+  padding: 0.5rem;
+}
+
+/* ============================================================
+   contact form
+   ============================================================ */
+.pk-form {
+  max-width: 560px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+  margin: 1.5rem 0;
+}
+.pk-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+}
+.pk-label {
+  font-family: var(--pk-mono);
+  font-size: 0.74rem;
+  letter-spacing: 0.05em;
+  color: var(--pk-muted);
+}
+.pk-input,
+.pk-textarea {
+  width: 100%;
+  background: var(--pk-surface);
+  border: 1px solid var(--pk-border);
+  border-radius: 8px;
+  padding: 0.7rem 0.85rem;
+  color: var(--pk-text);
+  font-family: var(--pk-sans);
+  font-size: 0.92rem;
+  transition: border-color 0.15s ease, background 0.15s ease;
+  outline: none;
+}
+.pk-textarea {
+  min-height: 150px;
+  resize: vertical;
+  line-height: 1.55;
+}
+.pk-input:focus,
+.pk-textarea:focus {
+  border-color: var(--pk-border-strong);
+  background: var(--pk-surface-2);
+}
+.pk-input::placeholder,
+.pk-textarea::placeholder {
+  color: var(--pk-faint);
+}
+.pk-submit {
+  align-self: flex-start;
+  background: var(--pk-white);
+  color: #000;
+  border: 1px solid var(--pk-white);
+  border-radius: 8px;
+  padding: 0.6rem 1.3rem;
+  font-family: var(--pk-sans);
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 0.15s ease, transform 0.05s ease;
+}
+.pk-submit:hover {
+  opacity: 0.85;
+}
+.pk-submit:active {
+  transform: translateY(1px);
+}
+.pk-submit:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.pk-status {
+  font-family: var(--pk-mono);
+  font-size: 0.82rem;
+  min-height: 1.2rem;
+  margin: 0;
+}
+.pk-status[data-state="ok"] {
+  color: #6ee7a8;
+}
+.pk-status[data-state="err"] {
+  color: #ff8a8a;
+}
+.pk-status[data-state="loading"] {
+  color: var(--pk-muted);
+}
+
+/* ============================================================
+   prose typography (frame/custom modes strip mintlify's defaults,
+   so restyle markdown headings/lists/links inside .mdx-content —
+   scoped to avoid touching the pk-* custom components)
+   ============================================================ */
+.mdx-content h1 {
+  font-size: clamp(1.9rem, 4vw, 2.5rem);
+  font-weight: 600;
+  letter-spacing: -0.03em;
+  line-height: 1.08;
+  color: var(--pk-white);
+  margin: 0 0 1rem;
+}
+.mdx-content h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  color: var(--pk-white);
+  margin: 2.5rem 0 0.9rem;
+}
+.mdx-content h3 {
+  font-size: 1.12rem;
+  font-weight: 600;
+  color: var(--pk-white);
+  margin: 1.75rem 0 0.6rem;
+}
+.mdx-content hr {
+  border: none;
+  border-top: 1px solid var(--pk-border);
+  margin: 2.75rem 0;
+}
+.mdx-content ul {
+  margin: 0.85rem 0;
+  padding-left: 1.25rem;
+  list-style: disc;
+}
+.mdx-content li {
+  color: var(--pk-muted);
+  line-height: 1.6;
+  margin: 0.35rem 0;
+}
+.mdx-content li::marker {
+  color: var(--pk-faint);
+}
+.mdx-content strong {
+  color: var(--pk-text);
+  font-weight: 600;
+}
+.mdx-content a:not(.pk-card):not(.pk-btn) {
+  color: var(--pk-white);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  text-decoration-color: var(--pk-border-strong);
+  transition: text-decoration-color 0.15s ease;
+}
+.mdx-content a:not(.pk-card):not(.pk-btn):hover {
+  text-decoration-color: var(--pk-white);
+}
+
+/* ============================================================
+   misc helpers
+   ============================================================ */
+.pk-muted {
+  color: var(--pk-muted);
+}
+.pk-mono {
+  font-family: var(--pk-mono);
+}
+.pk-avatar {
+  width: 84px;
+  height: 84px;
+  border-radius: 50%;
+  border: 1px solid var(--pk-border);
+  object-fit: cover;
+}
+.pk-avatar-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 0.5rem 0 1.5rem;
+}
+
+@media (max-width: 600px) {
+  .pk-hero {
+    padding-top: 0.5rem;
+  }
+}
