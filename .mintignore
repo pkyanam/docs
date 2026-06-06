@@ -5,3 +5,6 @@
 # Draft content
 drafts/
 *.draft.mdx
+
+# Backend relay code (deployed separately to a Vercel app, not part of the docs site)
+relay/

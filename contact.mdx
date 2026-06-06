@@ -16,7 +16,7 @@ drop me a message below, or reach out directly — i'm open to projects, opportu
   fallback in /contact.js) with your real endpoint when it's ready.
 */}
 
-<form id="pk-contact-form" className="pk-form" data-endpoint="https://REPLACE-ME.example.com/contact">
+<form id="pk-contact-form" className="pk-form" data-endpoint="https://trifecta.belweave.com/api/contact">
   <div className="pk-field">
     <label className="pk-label" htmlFor="pk-name">name</label>
     <input className="pk-input" id="pk-name" name="name" type="text" placeholder="your name" required />
@@ -25,6 +25,9 @@ drop me a message below, or reach out directly — i'm open to projects, opportu
     <label className="pk-label" htmlFor="pk-email">email</label>
     <input className="pk-input" id="pk-email" name="email" type="email" placeholder="you@example.com" required />
   </div>
+  {/* honeypot: hidden from humans, bots fill it -> relay rejects */}
+  <input className="pk-hp" id="pk-company" name="company" type="text" tabIndex={-1} autoComplete="off" aria-hidden="true" />
+
   <div className="pk-field">
     <label className="pk-label" htmlFor="pk-message">message</label>
     {/* mintlify's mdx sanitizer strips <textarea>, so contact.js mounts it here */}

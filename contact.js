@@ -69,24 +69,19 @@
     var name = (data.get("name") || "").toString().trim();
     var email = (data.get("email") || "").toString().trim();
     var message = (data.get("message") || "").toString().trim();
+    var company = (data.get("company") || "").toString().trim(); // honeypot
 
     if (!name || !email || !message) {
       setStatus(status, "err", "please fill in name, email, and message.");
       return;
     }
 
-    // condense the three fields into a single message string,
-    // sent alongside the structured fields in the payload.
-    var condensed =
-      "new message from " + name + " <" + email + ">\n\n" + message;
-
     var payload = {
       name: name,
       email: email,
       message: message,
-      text: condensed,
+      company: company, // honeypot — relay rejects if non-empty
       source: "preetham.org/contact",
-      submitted_at: new Date().toISOString(),
     };
 
     if (button) button.disabled = true;

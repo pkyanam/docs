@@ -374,6 +374,14 @@ a.pk-card:hover .pk-arrow {
   opacity: 0.5;
   cursor: not-allowed;
 }
+.pk-hp {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+  pointer-events: none;
+}
 .pk-status {
   font-family: var(--pk-mono);
   font-size: 0.82rem;
