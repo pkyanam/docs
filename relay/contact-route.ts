@@ -5,14 +5,14 @@
  *     app/api/contact/route.ts
  *
  * Then in that Vercel project's settings, add an env var:
- *     POKE_API_KEY = <your key from https://poke.com/settings/advanced>
+ *     POKE_API_KEY = <your V2 key from https://poke.com/kitchen>
  * (Optional) override the allowed origin(s):
  *     CONTACT_ALLOWED_ORIGINS = https://preetham.org,https://www.preetham.org
  *
  * The Mintlify contact form (preetham.org/contact) POSTs:
  *     { name, email, message, company (honeypot), source }
  * This route validates, drops bots, and forwards a single message to
- * Poke's inbound-sms webhook so it lands in your iMessage.
+ * Poke's API Message endpoint.
  *
  * The Poke key NEVER reaches the browser — it lives only here, server-side.
  *
@@ -27,7 +27,7 @@ const ALLOWED_ORIGINS = (
   .map((o) => o.trim())
   .filter(Boolean);
 
-const POKE_WEBHOOK = "https://poke.com/api/v1/inbound-sms/webhook";
+const POKE_API_MESSAGE_ENDPOINT = "https://poke.com/api/v1/inbound/api-message";
 
 // best-effort in-memory rate limit (per warm instance — not a hard guarantee
 // across serverless instances; add Upstash if you need strict limits, see README)
@@ -102,6 +102,7 @@ export async function POST(req: Request) {
   const name = String(data.name || "").trim().slice(0, 100);
   const email = String(data.email || "").trim().slice(0, 200);
   const message = String(data.message || "").trim().slice(0, 4000);
+  const source = String(data.source || "preetham.org/contact").trim().slice(0, 200);
 
   if (!name || !email || !message) {
     return json({ ok: false, error: "missing fields" }, 400, origin);
@@ -113,13 +114,16 @@ export async function POST(req: Request) {
   const text = `📬 new message from preetham.org\n\nfrom: ${name} <${email}>\n\n${message}`;
 
   try {
-    const res = await fetch(POKE_WEBHOOK, {
+    const res = await fetch(POKE_API_MESSAGE_ENDPOINT, {
       method: "POST",
       headers: {
         Authorization: `Bearer ${process.env.POKE_API_KEY}`,
         "Content-Type": "application/json",
       },
-      body: JSON.stringify({ message: text }),
+      body: JSON.stringify({
+        message: text,
+        contact: { name, email, message, source },
+      }),
     });
     if (!res.ok) {
       return json({ ok: false, error: "delivery failed" }, 502, origin);

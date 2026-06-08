@@ -12,14 +12,13 @@
 
    the endpoint is read from the form's `data-endpoint` attribute
    (see contact.mdx) so it can be configured without touching this
-   file. it is NOT yet live — set it later (also FALLBACK_ENDPOINT
-   below).
+   file.
    ============================================================ */
 
 (function () {
   "use strict";
 
-  var FALLBACK_ENDPOINT = "https://REPLACE-ME.example.com/contact";
+  var FALLBACK_ENDPOINT = "https://trifecta.belweave.com/api/contact";
 
   function setStatus(el, state, msg) {
     if (!el) return;

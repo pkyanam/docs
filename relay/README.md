@@ -8,7 +8,7 @@ small serverless relay, which holds the key server-side and forwards the message
 contact form (browser)  ──POST { name,email,message,company }──▶  relay (Vercel)
                                                                       │ Bearer POKE_API_KEY
                                                                       ▼
-                                          https://poke.com/api/v1/inbound-sms/webhook ──▶ iMessage
+                                          https://poke.com/api/v1/inbound/api-message ──▶ Poke
 ```
 
 This file is NOT deployed by Mintlify (see `.mintignore`). It lives here so the
@@ -22,8 +22,10 @@ form and its backend stay together. Copy it into an existing Vercel app.
    ```
 2. In that Vercel project → Settings → Environment Variables, add:
    ```
-   POKE_API_KEY = <key from https://poke.com/settings/advanced>
+   POKE_API_KEY = <V2 key from https://poke.com/kitchen>
    ```
+   Use a V2 API key created in Poke Kitchen. Legacy `pk_` keys from
+   Settings → Advanced only work with the deprecated inbound SMS webhook.
    (optional) `CONTACT_ALLOWED_ORIGINS = https://preetham.org,https://www.preetham.org`
 3. Redeploy.
 4. Your relay URL is `https://<that-app-domain>/api/contact`.
